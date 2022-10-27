@@ -10,13 +10,13 @@
 
 <h2>Project Screenshots:</h2>
 
-<img src="https://i.postimg.cc/T31C290m/netlfix-1.png" alt="project-screenshot" width="700" height="700/">
+<img src="https://i.postimg.cc/T31C290m/netlfix-1.png" alt="project-screenshot" width="1000" height="700/">
 
-<img src="https://i.postimg.cc/T3sQKDNs/netflix-2.png" alt="project-screenshot" width="700" height="700/">
+<img src="https://i.postimg.cc/T3sQKDNs/netflix-2.png" alt="project-screenshot" width="1000" height="700/">
 
-<img src="https://i.postimg.cc/159v2PNv/netflix-3.png" alt="project-screenshot" width="700" height="700/">
+<img src="https://i.postimg.cc/159v2PNv/netflix-3.png" alt="project-screenshot" width="1000" height="700/">
 
-<img src="https://i.postimg.cc/X7Qs0hf4/netflix-4.png" alt="project-screenshot" width="700" height="700/">
+<img src="https://i.postimg.cc/X7Qs0hf4/netflix-4.png" alt="project-screenshot" width="1000" height="700/">
 
 <h2>🛠️ Installation Steps:</h2>
 
