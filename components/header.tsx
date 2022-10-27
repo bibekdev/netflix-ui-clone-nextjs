@@ -1,8 +1,10 @@
 import { useEffect, useState } from 'react'
 import { MagnifyingGlassIcon, BellIcon } from '@heroicons/react/24/solid'
+import useAuth from 'context/auth'
 
 const Header = () => {
   const [scrollY, setScrollY] = useState(false)
+  const { signout } = useAuth()
 
   useEffect(() => {
     const handleScroll = () => {
@@ -41,6 +43,7 @@ const Header = () => {
           src='profile.png'
           alt='profile'
           className='cursor-pointer rounded'
+          onClick={() => signout()}
         />
       </div>
     </header>

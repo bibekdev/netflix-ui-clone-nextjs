@@ -8,6 +8,7 @@ import Row from '@/components/row'
 import Modal from '@/components/modal'
 import { modalState } from 'atoms/atom'
 import { useRecoilValue } from 'recoil'
+import useAuth from 'context/auth'
 
 interface Props {
   netflixOriginals: Movie[]
@@ -31,6 +32,10 @@ const Home: NextPage<Props> = ({
   documentaries,
 }) => {
   const showModal = useRecoilValue(modalState)
+  const { loading } = useAuth()
+
+  if (loading) return null
+
   return (
     <div className='relative h-screen bg-gradient-to-b lg:h[140vh]'>
       <Head>
