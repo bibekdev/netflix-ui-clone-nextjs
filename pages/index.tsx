@@ -5,6 +5,9 @@ import Banner from '@/components/banner'
 import requests from 'http/requests'
 import { Movie } from 'types'
 import Row from '@/components/row'
+import Modal from '@/components/modal'
+import { modalState } from 'atoms/atom'
+import { useRecoilValue } from 'recoil'
 
 interface Props {
   netflixOriginals: Movie[]
@@ -27,6 +30,7 @@ const Home: NextPage<Props> = ({
   romanceMovies,
   documentaries,
 }) => {
+  const showModal = useRecoilValue(modalState)
   return (
     <div className='relative h-screen bg-gradient-to-b lg:h[140vh]'>
       <Head>
@@ -45,6 +49,7 @@ const Home: NextPage<Props> = ({
           <Row title='Romance Movies' movies={romanceMovies} />
           <Row title='Documentaries' movies={documentaries} />
         </section>
+        {showModal && <Modal />}
       </main>
     </div>
   )
