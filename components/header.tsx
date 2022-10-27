@@ -34,9 +34,9 @@ const Header = () => {
       </div>
 
       <div className='flex items-center space-x-4 '>
-        <MagnifyingGlassIcon className='hidden h-6 w-6 sm:inline' />
-        <p className='hidden lg:inline'>Kids</p>
-        <BellIcon className='h-6 w-6' />
+        <MagnifyingGlassIcon className='hidden h-6 w-6 sm:inline cursor-pointer' />
+        <p className='hidden lg:inline cursor-pointer'>Kids</p>
+        <BellIcon className='h-6 w-6 cursor-pointer' />
         <img
           src='profile.png'
           alt='profile'

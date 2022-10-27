@@ -29,10 +29,10 @@ const Banner: React.FC<Props> = ({ netflixOriginals }) => {
         />
       </div>
 
-      <h1 className='text-2xl font-bold md:text-4xl lg:text-7xl'>
+      <h1 className='text-2xl font-bold md:text-4xl lg:text-6xl'>
         {movie?.title || movie?.name || movie?.original_name}
       </h1>
-      <p className='max-w-xs text-shadow-md text-xs md:max-w-lg md:text-lg lg:max-w-2xl lg:text-2xl'>
+      <p className='max-w-xs text-shadow-md text-xs md:max-w-lg md:text-lg lg:max-w-2xl lg:text-xl'>
         {movie?.overview}
       </p>
       <div className='flex space-x-3'>
